@@ -1,3 +1,11 @@
+parted (3.2-20ubuntu0.1) bionic; urgency=medium
+
+  * debian/patches/Read-NVMe-model-names-from-sysfs.patch: Expose NVMe
+    model names when available instead of the generic "NVMe Device"
+    string. LP: #1798675.
+
+ -- dann frazier <dannf@ubuntu.com>  Thu, 18 Oct 2018 16:00:56 -0600
+
 parted (3.2-20) unstable; urgency=medium
 
   * Amend patches added in 3.2-19 to include corresponding patches to files
