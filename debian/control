@@ -1,7 +1,8 @@
 Source: parted
 Section: admin
 Priority: optional
-Maintainer: Parted Maintainer Team <parted-maintainers@lists.alioth.debian.org>
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+XSBC-Original-Maintainer: Parted Maintainer Team <parted-maintainers@lists.alioth.debian.org>
 Uploaders: Bastian Blank <waldi@debian.org>, Colin Watson <cjwatson@debian.org>
 Standards-Version: 3.9.8
 Vcs-Git: https://anonscm.debian.org/git/parted/debian/parted.git

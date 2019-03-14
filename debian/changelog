@@ -1,3 +1,12 @@
+parted (3.2-20ubuntu0.2) bionic; urgency=medium
+
+  * debian/patches/fix-windows-fat-recognition-after-resizing.patch:
+    Apply upstream patch to fix FAT resizing so that FAT filesystems which
+    are resized by libparted are recognizeable in Microsoft Windows.
+    (LP: #1820090)
+
+ -- Thomas Ward <teward@ubuntu.com>  Thu, 14 Mar 2019 13:05:58 -0400
+
 parted (3.2-20ubuntu0.1) bionic; urgency=medium
 
   * debian/patches/Read-NVMe-model-names-from-sysfs.patch: Expose NVMe

@@ -26,3 +26,4 @@ libparted-dasd-update-and-improve-fdasd-functions.patch
 libparted-dasd-add-new-fdasd-functions.patch
 libparted-dasd-add-test-cases-for-the-new-fdasd-func.patch
 Read-NVMe-model-names-from-sysfs.patch
+fix-windows-fat-recognition-after-resizing.patch
